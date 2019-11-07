@@ -4,7 +4,7 @@
 
 .nav{
     display: flex;
-    padding: 40px 200px !important;
+    padding: 40px 200px 20px!important;
     box-sizing: border-box;
     justify-content: space-between;
     background-color: #00136F;
@@ -22,15 +22,14 @@
 }
 
 .content-use img{
-    margin-top: 20px; 
-    height: calc(100vh - 160px);
+    height: calc(100vh - 120px);
 }
 
 .content-use .use-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 110px;
 }
 
 .content-use .use-text h3{
@@ -59,7 +58,7 @@
 }
 
 .content-images{
-    padding: 90px 90px 70px;
+    padding: 120px 90px 70px;
 }
 
 .content-about h3, .content-how-work h3, .content-images h3 {
@@ -163,44 +162,6 @@
     cursor: text;
 }
 
-.footer {
-    padding: 30px 0;
-    text-align: center;
-    background-color: #ffffff;
-}
-
-.footer ul{
-    margin-bottom: 20px;
-    padding: 0;
-    list-style: none;
-}
-
-.footer ul li{
-    display: inline-block;
-}
-
-.footer ul li a{
-    text-decoration: none;
-    color: #1855ED!important;
-    font-size: 18px;
-    transition: 0.5s;
-    padding: 6px;
-}
-
-.footer ul li a:hover{
-    color: #00136F!important;
-}
-
-.footer img{
-    height: 50px;
-    margin-bottom: 15px;
-}
-
-.footer p{
-    color: #666666;
-    margin: 0;
-}
-
 .link{
     text-decoration: none!important;
     color: #1855ED!important;
@@ -277,4 +238,42 @@
 .pc-images img{
     width: 50%;
     padding: 0 30px;
+}
+
+.footer {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.footer ul{
+    margin-bottom: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li{
+    display: inline-block;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #1855ED!important;
+    font-size: 18px;
+    transition: 0.5s;
+    padding: 6px;
+}
+
+.footer ul li a:hover{
+    color: #00136F!important;
+}
+
+.footer img{
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.footer p{
+    color: #666666;
+    margin: 0;
 }
