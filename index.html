@@ -24,7 +24,23 @@
                 </div>
                 <div class="modal-body">
                     Alto contraste é uma opção para pessoas com deficiência visual. Ao hablitar o alto contraste, o In Clue deixa o fundo da
-                    página totalmente preto com as letras em branco.
+                    página totalmente preto com o texto em branco.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="infoExtension" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Extensão</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Extensões são ferramentas podem adicionar novas funcionalidades para o navegador, ou mudar sua aparência, ou o conteúdo de
+                    páginas. O In Clue muda a aparência dos elementos visuais e interativos das páginas.
                 </div>
             </div>
         </div>
@@ -53,10 +69,15 @@
     <div class="content-about">
         <div class="definition">
             <h3>O que é o In Clue?</h3>
-            <p>O In Clue é uma extensão para o navegador Chrome que realiza a adaptação de elementos visuais e interativos das
-                páginas de acordo com as preferências configuradas por você. Usando o In Clue, você ajusta o tamanho dos
-                textos, dos botões e de outros elementos das páginas. Depois, é só abrir as páginas normalmente, que elas
-                estarão do jeito que você precisa.
+            <p>O In Clue é uma
+                <span>extensão
+                    <a class="information" data-toggle="modal" data-target="#infoExtension">
+                        <img src="img/info.png" alt="informação" title="informação">
+                    </a>
+                </span> para o navegador Chrome que realiza a adaptação de elementos visuais e interativos das páginas de acordo
+                com as preferências configuradas por você. Usando o In Clue, você ajusta o tamanho dos textos, dos botões
+                e de outros elementos das páginas. Depois, é só abrir as páginas normalmente, que elas estarão do jeito que
+                você precisa.
             </p>
             <p>
                 O objetivo do In Clue é tornar sites acessíveis para pessoas idosas, pessoas com baixa visão e pessoas com deficiência motora.
@@ -91,7 +112,7 @@
         </h3>
         <p>
             O In Clue foi projetado para funcionar prioritariamente em páginas desenvolvidas com o
-            <a href="https://pt.wikipedia.org/wiki/Bootstrap_(framework_front-end)" class="link" target="_blank">Bootstrap</a>, uma tecnologia que vem sendo adotada por grandes empresas online, como: Twitter, Globo.com e Gov.br.
+            <a href="https://pt.wikipedia.org/wiki/Bootstrap_(framework_front-end)" class="link" target="_blank">Bootstrap</a>, uma tecnologia que vem sendo adotada por grandes empresas online, como: Twitter, Globo.com e Governo Federal.
             Nas páginas que utilizam o Bootstrap, os ajustes serão aplicados conforme a personalização realizada pelo usuário.
             Dependendo da forma de como o Bootstrap é utilizado na página e do nível de alteração feita nos elementos visuais
             pelo usuário, há o risco de eles ficarem mal posicionados na tela.
