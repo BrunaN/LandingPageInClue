@@ -59,10 +59,10 @@
 }
 
 .content-images{
-    padding-top: 125px;
+    padding: 100px 90px 70px;
 }
 
-.content-about h3, .content-how-work h3{
+.content-about h3, .content-how-work h3, .content-images h3 {
     font-size: 40px;
     font-weight: bold;
     padding-bottom: 20px;
@@ -221,6 +221,7 @@
 
 .content-acess-inclue{
     height: 200px;
+    padding: 0 150px; 
 }
 
 .content-use-inclue .text{
@@ -256,13 +257,24 @@
 
 .content-acess-inclue .img{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     width: 50%;
 }
 
 .content-acess-inclue .img img{
-    margin-top: -75px;
+    margin-top: -95px;
     height: 350px;
     border: solid 1px #f2f2f2;
     border-radius: 12px;
+}
+
+.pc-images{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.pc-images img{
+    width: 50%;
+    padding: 0 40px;
 }
