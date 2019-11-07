@@ -59,7 +59,7 @@
 }
 
 .content-images{
-    padding: 100px 90px 70px;
+    padding: 90px 90px 70px;
 }
 
 .content-about h3, .content-how-work h3, .content-images h3 {
@@ -276,5 +276,5 @@
 
 .pc-images img{
     width: 50%;
-    padding: 0 40px;
+    padding: 0 30px;
 }
